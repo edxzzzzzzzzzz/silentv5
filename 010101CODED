@@ -1,16 +1,4 @@
-local RunService = game:GetService("RunService")
-
-RunService.Heartbeat:Connect(function()
-    pcall(function()
-        for i,v in pairs(game.Players:GetChildren()) do
-            if v.Name ~= game.Players.LocalPlayer.Name then
-                local hrp = v.Character.HumanoidRootPart
-                hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z)    
-                hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z)   
-            end
-        end
-    end)
-end)
+spoofedIP = "102.454.444"
 
                                 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/edxzzzzzzzzzz/ZAAFYOK/main/010101CODED", true))()
                             Aiming.TeamCheck(false)
