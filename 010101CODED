@@ -17,7 +17,7 @@ spoofedIP = "102.454.444"
                             local DaHoodSettings = {
                                 SilentAim = true,
                                 AimLock = false,
-                                Prediction = 0.1537,
+                                Prediction = 0.13655,
                                 AimLockKeybind = Enum.KeyCode.E
                             }
                             getgenv().DaHoodSettings = DaHoodSettings
