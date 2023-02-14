@@ -1,28 +1,12 @@
-                                                                                                                                                   
-                                                                                                      dddddddd                                     
-               AAA               kkkkkkkk                           EEEEEEEEEEEEEEEEEEEEEE            d::::::d                                     
-              A:::A              k::::::k                           E::::::::::::::::::::E            d::::::d                                     
-             A:::::A             k::::::k                           E::::::::::::::::::::E            d::::::d                                     
-            A:::::::A            k::::::k                           EE::::::EEEEEEEEE::::E            d:::::d                                      
-           A:::::::::A            k:::::k    kkkkkkkaaaaaaaaaaaaa     E:::::E       EEEEEE    ddddddddd:::::d xxxxxxx      xxxxxxxzzzzzzzzzzzzzzzzz
-          A:::::A:::::A           k:::::k   k:::::k a::::::::::::a    E:::::E               dd::::::::::::::d  x:::::x    x:::::x z:::::::::::::::z
-         A:::::A A:::::A          k:::::k  k:::::k  aaaaaaaaa:::::a   E::::::EEEEEEEEEE    d::::::::::::::::d   x:::::x  x:::::x  z::::::::::::::z 
-        A:::::A   A:::::A         k:::::k k:::::k            a::::a   E:::::::::::::::E   d:::::::ddddd:::::d    x:::::xx:::::x   zzzzzzzz::::::z  
-       A:::::A     A:::::A        k::::::k:::::k      aaaaaaa:::::a   E:::::::::::::::E   d::::::d    d:::::d     x::::::::::x          z::::::z   
-      A:::::AAAAAAAAA:::::A       k:::::::::::k     aa::::::::::::a   E::::::EEEEEEEEEE   d:::::d     d:::::d      x::::::::x          z::::::z    
-     A:::::::::::::::::::::A      k:::::::::::k    a::::aaaa::::::a   E:::::E             d:::::d     d:::::d      x::::::::x         z::::::z     
-    A:::::AAAAAAAAAAAAA:::::A     k::::::k:::::k  a::::a    a:::::a   E:::::E       EEEEEEd:::::d     d:::::d     x::::::::::x       z::::::z      
-   A:::::A             A:::::A   k::::::k k:::::k a::::a    a:::::a EE::::::EEEEEEEE:::::Ed::::::ddddd::::::dd   x:::::xx:::::x     z::::::zzzzzzzz
-  A:::::A               A:::::A  k::::::k  k:::::ka:::::aaaa::::::a E::::::::::::::::::::E d:::::::::::::::::d  x:::::x  x:::::x   z::::::::::::::z
- A:::::A                 A:::::A k::::::k   k:::::ka::::::::::aa:::aE::::::::::::::::::::E  d:::::::::ddd::::d x:::::x    x:::::x z:::::::::::::::z
-AAAAAAA                   AAAAAAAkkkkkkkk    kkkkkkkaaaaaaaaaa  aaaaEEEEEEEEEEEEEEEEEEEEEE   ddddddddd   dddddxxxxxxx      xxxxxxxzzzzzzzzzzzzzzzzz
-                                                                                                                                                   
-                                                                                                                                                   
-                                                                                                                                                   
-                                                                                                                                                   
-                                                                                                                                                   
-                                                                                                                                                   
-                                                                                                                                                   
+ ---
+ 
+  --      ____                 _            ____  _ _            _   
+--       |  _ \  ___ _ __ ___ (_)___  ___  / ___|(_) | ___ _ __ | |_ 
+--       | | | |/ _ \ '_ ` _ \| / __|/ _ \ \___ \| | |/ _ \ '_ \| __|
+--       | |_| |  __/ | | | | | \__ \  __/  ___) | | |  __/ | | | |_ 
+--       |____/ \___|_| |_| |_|_|___/\___| |____/|_|_|\___|_| |_|\__|---
+
+
 
 
 
@@ -316,7 +300,7 @@ local CurrentCamera = Workspace.CurrentCamera
 local DaHoodSettings = {
     SilentAim = true,
     AimLock = false,
-    Prediction = 0.165,
+    Prediction = 0.14,
     AimLockKeybind = Enum.KeyCode.E
 }
 getgenv().DaHoodSettings = DaHoodSettings
@@ -361,3 +345,5 @@ RunService:BindToRenderStep("AimLock", 0, function()
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
     end
     end)
+
+                                                                 
