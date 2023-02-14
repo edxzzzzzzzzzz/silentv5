@@ -285,7 +285,7 @@
 
 
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/bbw23/espfamily/main/module2"))()
+local Aiming = loadstring(game:HttpGet("https://github.com/edxzzzzzzzzzz/ZAAFYOK/blob/main/010101CODED"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
